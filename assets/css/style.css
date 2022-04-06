@@ -1,0 +1,80 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+button {
+   font-family: 'Montserrat', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+.image-size {
+   width: 100%;
+   object-fit: cover;
+}
+#main {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+#main .click {
+   padding: 10px 20px;
+   font-size: 1.8rem;
+   border-radius: 10px;
+   border: none;
+   background-color: coral;
+   color: white;
+}
+#main .gradient {
+   padding: 10px 20px;
+   font-size: 1.8rem;
+   border: none;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   color: white;
+   margin: 10px 0;
+   cursor: pointer;
+}
+#main .gradient span {
+   margin-left: 50px;
+   display: inline-block;
+   color: #021b79;
+}
+#main .click:hover,
+#main .gradient:hover {
+   opacity: 0.5;
+}
+#main .gradient.color-1 {
+   background-image: linear-gradient(to bottom right, red, yellow);
+}
+#main .gradient.color-2 {
+   background-image: linear-gradient(to bottom right, #b06ab3, #4568dc);
+}
+#main .gradient.color-3 {
+   background-image: linear-gradient(to bottom right, #021b79, #b06ab3);
+}
+#main .gradient.color-4 {
+   background-image: linear-gradient(to bottom right, #43c6ac, #f8ffae);
+}
+#main .gradient.color-5 {
+   background-image: linear-gradient(to bottom right, #dce35b, #45b649);
+}
+#main .gradient.color-6 {
+   background-image: linear-gradient(to bottom right, #dbe6f6, #c5796d);
+}
+#main .click:hover {
+   cursor: pointer;
+}
